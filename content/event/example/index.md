@@ -19,6 +19,7 @@ all_day: false
 featured: false
 
 {{< youtube OzcLsbOQybY >}}
+links:
 url_video: "https://www.youtube.com/watch?v=OzcLsbOQybY"
 
 slides: ""
