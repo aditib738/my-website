@@ -11,7 +11,7 @@ authors:
 - Tobias Lunt
 - Paul Novosad
 
-date: "2022-07-15"
+date: "2021-08-15"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -45,7 +45,7 @@ url_poster: ''
 url_project: ''
 url_slides: ''
 url_source: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=_bH61Dktr70&t=8s'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
