@@ -18,13 +18,16 @@ all_day: false
 # Is this a featured talk? (true/false)
 featured: false
 
-{{< youtube OzcLsbOQybY >}}
+image:
+  placement: r
+  caption: "ADE 2021"
+  focal_point: "Center"
+  preview_only: false
+
 links:
 url_video: "https://www.youtube.com/watch?v=OzcLsbOQybY"
 
 slides: ""
 
-# Projects (optional).
-projects:[]
 ---
 
