@@ -66,7 +66,7 @@ email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
-
+---
 
 My broad research interests lie in studying inequality in access to economic opportunity along the gender, caste, and class dimensions in South Asia. 
 I currently serve as India Director for Development Data Lab, where I am collaborating with Professors {{< staticref "https://samuelasher.com" "newtab" >}}Sam Asher{{< /staticref >}} and {{< staticref "https://www.paulnovosad.com" "newtab" >}}Paul Novosad{{< /staticref >}} on multiple projects including building a multi-year gender-economics research and open data agenda in South Asia, fundraising for our big, open data approach to hi-res policy and research in India and leading outreach efforts beyond the academic community. 
