@@ -18,10 +18,7 @@ all_day: false
 # Is this a featured talk? (true/false)
 featured: false
 
-video:
-  caption: ADE 2021
-  {{< youtube OzcLsbOQybY >}}
-  focal_point: Right
+{{< youtube OzcLsbOQybY >}}
 url_video: "https://www.youtube.com/watch?v=OzcLsbOQybY"
 
 slides: ""
