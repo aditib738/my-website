@@ -38,7 +38,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf:'https://www.ncaer.org/Events/IPF-2021/Paper/Paper-I-Sam%20Aditi%20Alison%20Johns-Conference-Version-IPF-2021.pdf'
+url_pdf: 'https://ramblinsamblog.files.wordpress.com/2021/08/2021-07-02-asher-et-al-ipf-big-open-data-for-development.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
