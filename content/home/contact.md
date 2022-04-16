@@ -16,7 +16,7 @@ content:
   autolink: true
   
   # Contact details (edit or remove options as required)
-  email: ab738@cornell.edu
+  email: aditib@alumni.princeton.edu
   address:
     city: Washington, DC
     country: United States
