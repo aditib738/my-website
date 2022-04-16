@@ -57,6 +57,6 @@ url_video: ''
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   focal_point: ""
-  preview_only: false
+  preview_only: true
 
 ---
