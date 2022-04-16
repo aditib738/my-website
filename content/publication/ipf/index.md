@@ -11,11 +11,11 @@ authors:
 - Tobias Lunt
 - Paul Novosad
 
-date: "2021-15-07"
+date: "2021-07-15"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-15-07"
+publishDate: "2021-07-15"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
