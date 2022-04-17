@@ -13,8 +13,8 @@ image:
   focal_point: Smart
 
 links:
-url_code: "https://blogs.worldbank.org/endpovertyinsouthasia/how-did-indias-rural-economy-fare-through-covid-19-lockdown-and-re-opening"
-url_pdf: ""
+url_code: ""
+url_pdf: "https://pubdocs.worldbank.org/en/645971613651626018/Economic-Effects-of-COVID19-Rapid-Rural-Surveys.pdf"
 url_slides: ""
 url_video: ""
 
