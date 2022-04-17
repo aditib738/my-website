@@ -29,8 +29,10 @@ content:
     tag: '*'
   - name: Policy
     tag: Policy
-  - name: Other
-    tag: Demo
+  - name: Media
+    tag: Media
+  - name: Passion projects
+    tag: passion
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
