@@ -1,5 +1,5 @@
 ---
-title: Economic Effects of Covid-19: Rapid Surveys of Rural Households in India
+title: Economic Effects of Covid-19 among Rural Households in India
 summary: Joint work with World Bank & ID Insight
 tags:
 - Policy
