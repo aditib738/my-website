@@ -38,6 +38,10 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
 url_pdf: 'http://paulnovosad.com/pdf/india-judicial-bias.pdf'
 url_code: 'https://github.com/devdatalab/paper-justice'
 url_dataset: 'https://www.devdatalab.org/judicial-data'
