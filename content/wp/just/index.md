@@ -39,9 +39,17 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+ - name: Commentary in the Economic & Political Weekly
+   url: https://www.epw.in/journal/2021/8/law-and-society/two-papers-judicial-bias-india.html
+ - name: Coverage in the Indian Express
+   url: https://indianexpress.com/article/india/district-courts-order-gender-religion-bias-7181919/
+ - name: Coverage in the Hindustan Times
+   url: https://www.hindustantimes.com/opinion/in-india-s-lower-judiciary-the-absence-of-in-group-bias-101610378365396.html
+ - name: Coverage in the Print
+   url: https://theprint.in/opinion/indias-district-court-judges-dont-show-in-group-bias-against-women-muslims-study/584424/
+ - name: Op-ed in Bar and Bench
+   url: https://www.barandbench.com/columns/the-open-justice-data-revolution
 
 url_pdf: 'http://paulnovosad.com/pdf/india-judicial-bias.pdf'
 url_code: 'https://github.com/devdatalab/paper-justice'
