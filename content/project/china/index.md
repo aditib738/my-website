@@ -25,5 +25,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-The unprecedented nature of the COVID-19 pandemic entailed an urgent and proactive response from Indian policymakers. To support the formulation and implementation of effective and evidence-informed relief programmes, the World Bank in collaboration with IDinsight and Development Data Lab sought to produce rigorous and responsive data for policymakers through rapid response phone surveys across six states in India. This report presents the findings of the three-round survey on agriculture, income and consumption, labour and migration, access to relief programmes, and healthcare.
-
+This report aims to provide a nuanced discussion of China’s Belt and Road Initiative (BRI) and provide policy prescriptions for a U.S. response based on extensive desk and field research in East Africa (Ethiopia and Djibouti) and Southeast Asia (Malaysia and Singapore). 
