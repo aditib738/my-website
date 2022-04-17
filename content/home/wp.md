@@ -16,11 +16,12 @@ content:
   # Filter on criteria
   filters:
     folders:
-      - publication
+      - wp
     tag: ''
     category: ''
     publication_type: ''
     author: ''
+    abstract: ''
     exclude_featured: false
     exclude_future: false
     exclude_past: false
