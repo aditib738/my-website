@@ -12,7 +12,10 @@ main:
     weight: 20
   - name: Projects
     url: '#projects'
-    weight: 30    
+    weight: 30
+  - name: Projects
+    url: '#wp'
+    weight: 30        
   - name: Contact
     url: '#contact'
     weight: 50
