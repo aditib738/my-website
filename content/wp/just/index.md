@@ -42,13 +42,13 @@ featured: true
 links:
  - name: Commentary in EPW
    url: https://www.epw.in/journal/2021/8/law-and-society/two-papers-judicial-bias-india.html
- - name: Media: the Indian Express
+ - name: Media-Indian Express
    url: https://indianexpress.com/article/india/district-courts-order-gender-religion-bias-7181919/
- - name: Media: the Hindustan Times
+ - name: Media-the Hindustan Times
    url: https://www.hindustantimes.com/opinion/in-india-s-lower-judiciary-the-absence-of-in-group-bias-101610378365396.html
- - name: Media: the Print
+ - name: Media-the Print
    url: https://theprint.in/opinion/indias-district-court-judges-dont-show-in-group-bias-against-women-muslims-study/584424/
- - name: Op-ed: Bar and Bench
+ - name: Op-ed-Bar and Bench
    url: https://www.barandbench.com/columns/the-open-justice-data-revolution
 
 url_pdf: 'http://paulnovosad.com/pdf/india-judicial-bias.pdf'
