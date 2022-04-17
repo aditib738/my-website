@@ -30,7 +30,8 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 publication: In Working Paper
 
-abstract: We study judicial in-group bias in Indian criminal courts using a newly collected dataset on over 5 million criminal case records from 2010–2018. After detecting gender and religious identity using a neural-net classifier applied to judge and defendant names, we exploit quasi-random assignment of cases to judges to examine whether defendant outcomes are affected by assignment to a judge with a similar identity. In the aggregate, we estimate tight zero effects of in-group bias based on shared gender, religion, and last name (a proxy for caste). We do find limited in-group bias in some (but not all) settings where identity is salient – in particular, we find a small religious in-group bias during Ramadan, and we find shared-name in-group bias when judge and defendant match on a rare last name.
+abstract: We study judicial in-group bias in Indian criminal courts using a newly collected dataset on over 5 million criminal case records from 2010--2018. After detecting gender and religious identity using a neural-net classifier applied to judge and defendant names, we exploit quasi-random assignment of cases to judges to examine whether defendant outcomes are affected by assignment to a judge with a similar identity. In the aggregate, we estimate tight zero effects of in-group bias based on shared gender, religion, and last name (a proxy for caste). We do find limited in-group bias in some (but not all) settings where identity is salient -- in particular, we find a small religious in-group bias during Ramadan, and we find shared-name in-group bias when judge and defendant match on a rare last name.
+
 
 tags: []
 
