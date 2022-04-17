@@ -1,5 +1,5 @@
 ---
-title: Example Project
+title: Effects of COVID-19 on Rural Households in India
 summary: An example of using the in-built project page.
 tags:
 - Policy
