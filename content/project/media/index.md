@@ -13,7 +13,16 @@ image:
   focal_point: Smart
 
 links:
-url_openjustice: "https://www.barandbench.com/columns/the-open-justice-data-revolution"
+ - name: Ideas for India
+   url: https://www.ideasforindia.in/topics/governance/digging-for-dirt-rent-seeking-among-elected-politicians-in-india-s-mineral-belt.html
+ - name: World Bank blog
+   url: https://blogs.worldbank.org/endpovertyinsouthasia/how-did-indias-rural-economy-fare-through-covid-19-lockdown-and-re-opening
+ - name: Indian Express editorial
+   url: https://indianexpress.com/article/opinion/columns/the-exemplar-effect-4906521/
+ - name: Livemint op-ed
+   url: https://www.livemint.com/Opinion/jhU4leh5ikkc0wQDCaXRhO/Opinion-Digitally-empowering-women-in-rural-India.html
+
+url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -39,4 +48,4 @@ A list of op-eds and blogs I have written or co-written that have been featured 
 
 6. Digitally empowering women in rural India. Livemint, September 2018 
 
-7. I try to write (in collaboration with my team) frequently to keep the Medium universe updated about the open data resources we are creating at Development Data Lab. Some things we have written about: big data for justice, excess mortality data, a district-level COVID forecast tool.
+7. I try to write (in collaboration with my team) frequently to keep the Medium universe updated about the open data resources we are creating at Development Data Lab. Some things we have written about: {{< staticref "https://devdatalab.medium.com/big-data-for-justice-f53e0e14c9c9" "newtab" >}}big data for justice{{< /staticref >}}, {{< staticref "https://devdatalab.medium.com/big-data-for-justice-f53e0e14c9c9" "newtab" >}}excess mortality data{{< /staticref >}}, a {{< staticref "https://devdatalab.medium.com/big-data-for-justice-f53e0e14c9c9" "newtab" >}}district-level COVID forecast tool{{< /staticref >}}.
