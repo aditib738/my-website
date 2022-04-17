@@ -1,6 +1,6 @@
 ---
 title: Economic Effects of Covid-19: Rapid Surveys of Rural Households in India 
-summary: joint work: Development Data Lab, ID Insight, and the World Bank
+summary: joint work by Development Data Lab, ID Insight, and the World Bank
 tags:
 - Policy
 date: "2021-02-01"
