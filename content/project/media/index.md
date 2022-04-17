@@ -13,7 +13,7 @@ image:
   focal_point: Smart
 
 links:
-url_code: ""
+url_openjustice: "https://www.barandbench.com/columns/the-open-justice-data-revolution"
 url_pdf: ""
 url_slides: ""
 url_video: ""
