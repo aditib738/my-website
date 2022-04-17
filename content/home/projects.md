@@ -28,7 +28,7 @@ content:
   - name: All
     tag: '*'
   - name: Policy
-    tag: Deep Learning
+    tag: Policy
   - name: Other
     tag: Demo
 
