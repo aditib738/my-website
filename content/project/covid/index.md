@@ -1,6 +1,6 @@
 ---
-title: Economic Effects of COVID-19 on Rural Households in India
-summary: `external_link`.
+title: External Project
+summary: An example of linking directly to an external project website using `external_link`.
 tags:
 - Policy
 date: "2016-04-27T00:00:00Z"
