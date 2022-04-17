@@ -1,5 +1,5 @@
 ---
-title: Show me the women
+title: Show me the Women
 summary: A blog series on Indian female economists and policy-makers
 tags:
 - passion
@@ -42,3 +42,6 @@ This blog series is a dedication to these inspiring human beings. My textbooks a
 Also, the hashtag #showmethewomen isn’t original. A senior of mine when I was an undergrad at Cornell ran a campaign with this hashtag to highlight Cornell female alumna in STEM — since the walls were full of portraits of men, and conspicuously so. I figured it made sense to do the same for the modern economic and policy history of India.
 
 Note that the following blogs in these series are quick introductions to some incredible women in the history of Indian economics and policy that I have come across. Each blog is a bite-sized review of what I found amazing about them, with links to their biographies (etc.) if they exist. This isn’t a careful historical archiving undertaking — if only I had the time, resources, and skill to do that.
+
+
+PS: I write a lot on gender-economics mapped to lived experiences. You can read more via my medium account {{< staticref "https://bhowmick-34728.medium.com/" "newtab" >}}here{{< /staticref >}}.
