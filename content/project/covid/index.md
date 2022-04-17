@@ -1,5 +1,5 @@
 ---
-title: Internal Project
+title: Example Project
 summary: An example of using the in-built project page.
 tags:
 - Policy
@@ -13,10 +13,6 @@ image:
   focal_point: Smart
 
 links:
-- icon: twitter
-  icon_pack: fab
-  name: Follow
-  url: https://twitter.com/georgecushen
 url_code: ""
 url_pdf: ""
 url_slides: ""
