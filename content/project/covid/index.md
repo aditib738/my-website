@@ -9,6 +9,7 @@ date: "2021-02-01"
 external_link: "https://pubdocs.worldbank.org/en/645971613651626018/Economic-Effects-of-COVID19-Rapid-Rural-Surveys.pdf"
 
 image:
+  caption:
   focal_point: Smart
 
 links:
