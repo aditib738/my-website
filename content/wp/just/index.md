@@ -19,7 +19,7 @@ date: "2022-04-16"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-04-16"
+publishDate: "2022-04-16"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
