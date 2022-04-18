@@ -20,7 +20,7 @@ content:
   address:
     city: Washington DC
     country: United States
-    country_code: US
+    country_code: USA
   contact_links:
     - icon: twitter
       icon_pack: fab
