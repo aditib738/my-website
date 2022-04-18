@@ -17,8 +17,6 @@ content:
   
   # Contact details (edit or remove options as required)
   email: aditib@alumni.princeton.edu
-  address:
-    city: Washington DC, USA
   contact_links:
     - icon: twitter
       icon_pack: fab
