@@ -11,8 +11,8 @@ abstract: "Presented our paper on in-group bias in the Indian Judiciary at ADE 2
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2021-10-05T13:00:00Z'
-date_end: '2021-10-05T15:00:00Z'
+date: '2021-10-05'
+date_end: '2021-10-05'
 all_day: false
 
 # Is this a featured talk? (true/false)
