@@ -10,7 +10,7 @@ abstract: "Presenting results from study on in-group bias among Indian judges"
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: '2020-11-02T18:00:00Z'
-date_end: '2022-11-02T19:00:00Z'
+date_end: '2020-11-02T19:00:00Z'
 all_day: false
 
 # Is this a featured talk? (true/false)
