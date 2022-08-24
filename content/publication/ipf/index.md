@@ -21,7 +21,7 @@ publishDate: "2021-07-15"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: India Policy Forum
@@ -38,7 +38,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ramblinsamblog.files.wordpress.com/2021/08/2021-07-02-asher-et-al-ipf-big-open-data-for-development.pdf'
+url_pdf: 'https://www.ncaer.org/image/userfiles/file/IPF2021/IPF2021Paper1.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
