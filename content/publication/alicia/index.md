@@ -35,15 +35,6 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://scholar.princeton.edu/adsera/publications-0'
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
