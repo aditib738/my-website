@@ -21,7 +21,7 @@ publishDate: "2022-10-01"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: Forthcoming at the Journal of Labor Research
+publication: Journal of Labor Research
 
 abstract: 
 
@@ -31,9 +31,9 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+links:
+ - name: Article
+   url: https://link.springer.com/article/10.1007/s12122-022-09339-w
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
