@@ -67,7 +67,7 @@ email: ""
 highlight_name: true
 ---
 
-Hi!
+---
 
 I currently serve as India Director at {{< staticref "htpps://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. 
 
