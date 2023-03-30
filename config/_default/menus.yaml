@@ -9,10 +9,10 @@ main:
     weight: 10
   - name: Publications
     url: '#publications'
-    weight: 20
+    weight: 30
   - name: Projects
     url: '#projects'
-    weight: 30
+    weight: 40
   - name: Contact
     url: '#contact'
     weight: 50
@@ -21,4 +21,4 @@ main:
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
     url: https://aditib738.github.io/mywebsite/Aditi_CV.pdf
-    weight: 40
+    weight: 20
