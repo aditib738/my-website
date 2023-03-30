@@ -67,6 +67,8 @@ email: ""
 highlight_name: true
 ---
 
-I currently serve as India Director at {{< staticref "htpps://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. A few collaborations since 2020 include -- a large-scale {{< staticref "https://www.devdatalab.org/judicial-bias" "newtab" >}}study of in-group gender and religious bias in the Indian judiciary{{< /staticref >}}, development of the largest {{< staticref "https://www.devdatalab.org/judicial-data" "newtab" >}}open-access judicial data platform{{< /staticref >}} and assembling excess mortality data that enabled our interdisciplinary paper estimating excess Covid mortality in India, {{< staticref "https://www.science.org/doi/10.1126/science.abm5154" "newtab" >}}in Science{{< /staticref >}}.
+I currently serve as India Director at {{< staticref "htpps://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. 
+
+A few collaborations since 2020 include -- a large-scale {{< staticref "https://www.devdatalab.org/judicial-bias" "newtab" >}}study of in-group gender and religious bias in the Indian judiciary{{< /staticref >}}, development of the largest {{< staticref "https://www.devdatalab.org/judicial-data" "newtab" >}}open-access judicial data platform{{< /staticref >}} and assembling excess mortality data that enabled our interdisciplinary paper estimating excess Covid mortality in India, {{< staticref "https://www.science.org/doi/10.1126/science.abm5154" "newtab" >}}in Science{{< /staticref >}}.
 
 I am a June 2020 graduate of the School of Public and International Affairs at Princeton University. Prior to graduate school, I worked on large-scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu with J-PAL South Asia in India.
