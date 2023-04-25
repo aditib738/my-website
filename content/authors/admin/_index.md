@@ -70,8 +70,8 @@ email: ""
 highlight_name: true
 ---
 
-I am an incoming PhD student in Public Policy at the Harvard Kennedy School. I have been thinking hard about migration and resettlement, intergenerational mobility of women, female labor force participation of late. 
+I am an incoming PhD student in Public Policy at the Harvard Kennedy School. 
 
-I have served as India Director at {{< staticref "htpps://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}} and am a June 2020 graduate of the School of Public and International Affairs at Princeton University. Prior to graduate school, I worked on large-scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu with J-PAL South Asia in India.
+I have been helping{{< staticref "htpps://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}} grow since 2020. I have previously worked on large-scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu with J-PAL South Asia in India.
 
 ---
