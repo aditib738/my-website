@@ -72,6 +72,6 @@ highlight_name: true
 
 I am an incoming PhD student in Public Policy at the Harvard Kennedy School. 
 
-I have been helping{{< staticref "htpps://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}} grow since 2020. I have previously worked on large-scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu with J-PAL South Asia in India.
+I have been helping {{< staticref "htpps://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}} grow since 2020. I have previously worked on large-scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu with J-PAL South Asia in India.
 
 ---
