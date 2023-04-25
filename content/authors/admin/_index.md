@@ -25,6 +25,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: PhD in Public Policy
+    institution: Harvard University
+    year: Incoming (Fall 2023)
   - course: MPA in Economics and Public Policy
     institution: Princeton University
     year: 2020
