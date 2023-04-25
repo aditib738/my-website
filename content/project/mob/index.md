@@ -3,7 +3,7 @@ title: Expanding Opportunities: Toward Inclusive Growth
 summary: Joint work with the World Bank
 tags:
 - Policy
-date: "2023-04-25T00:00:00Z"
+date: "2023-03-25T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://openknowledge.worldbank.org/entities/publication/74975221-7215-4687-aee8-9e881086cd60"
