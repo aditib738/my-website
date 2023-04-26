@@ -1,6 +1,6 @@
 ---
 title: A map for equitable growth in South Asia
-summary: Joint work with the World Bank
+summary: Joint work with the World Bank SARCE
 tags:
 - Policy
 date: "2021-01-27T00:00:00Z"
@@ -12,8 +12,8 @@ image:
   caption: 
   focal_point: Smart
 
-links:
-url_code: "https://openknowledge.worldbank.org/entities/publication/74975221-7215-4687-aee8-9e881086cd60"
+links: "https://openknowledge.worldbank.org/entities/publication/74975221-7215-4687-aee8-9e881086cd60"
+url_code: ""
 url_pdf: "https://openknowledge.worldbank.org/server/api/core/bitstreams/a9e3dd9c-fb0d-4e1c-bbe3-0b7c0614c418/content"
 url_slides: ""
 url_video: ""
