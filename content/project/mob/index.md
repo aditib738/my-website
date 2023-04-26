@@ -1,7 +1,7 @@
 ---
-title: Expanding opportunities: A map for equitable growth in South Asia
-summary: Joint work with the World Bank
-tags: 
+title: Effects of COVID-19 on Rural Households in India
+summary: Joint work with the World Bank and ID Insight
+tags:
 - Policy
 date: "2021-01-27T00:00:00Z"
 
