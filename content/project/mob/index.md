@@ -14,7 +14,7 @@ image:
 
 links:
 url_code: ""
-url_pdf: "https://pubdocs.worldbank.org/en/645971613651626018/Economic-Effects-of-COVID19-Rapid-Rural-Surveys.pdf"
+url_pdf: ""
 url_slides: ""
 url_video: ""
 
@@ -25,5 +25,4 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-The unprecedented nature of the COVID-19 pandemic entailed an urgent and proactive response from Indian policymakers. To support the formulation and implementation of effective and evidence-informed relief programmes, the World Bank in collaboration with IDinsight and Development Data Lab sought to produce rigorous and responsive data for policymakers through rapid response phone surveys across six states in India. This report presents the findings of the three-round survey on agriculture, income and consumption, labour and migration, access to relief programmes, and healthcare.
-
+Leveraging a large data harmonizing effort across scores of nationally representative household surveys spanning millions of South Asian individuals, this chapter establishes multiple previously unknown facts about inequality of opportunity and bottom half mobility across seven South Asian countries. 
