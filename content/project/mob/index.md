@@ -6,7 +6,7 @@ tags:
 date: "2021-04-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://openknowledge.worldbank.org/entities/publication/74975221-7215-4687-aee8-9e881086cd60
+external_link: "https://openknowledge.worldbank.org/entities/publication/74975221-7215-4687-aee8-9e881086cd60"
 
 image:
   caption: Photo by Toa Heftiba on Unsplash
