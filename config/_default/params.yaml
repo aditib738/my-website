@@ -6,7 +6,6 @@
 # Appearance
 
 appearance:
-  theme_day: mr robot
   theme_night: mr robot
   font: classic
   font_size: S
