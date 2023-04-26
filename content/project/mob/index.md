@@ -1,9 +1,9 @@
 ---
 title: Expanding opportunities: A map for equitable growth in South Asia
 summary: Joint work with the World Bank
-tags:
+tags: 
 - Policy
-date: "2023-01-27T00:00:00Z"
+date: "2021-01-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
