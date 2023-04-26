@@ -14,7 +14,7 @@ image:
 
 links:
 url_code: ""
-url_pdf: ""
+url_pdf: "https://openknowledge.worldbank.org/server/api/core/bitstreams/a9e3dd9c-fb0d-4e1c-bbe3-0b7c0614c418/content"
 url_slides: ""
 url_video: ""
 
