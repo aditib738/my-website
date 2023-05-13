@@ -6,12 +6,12 @@ title: Aditi Bhowmick
 superuser: true
 
 # Role/position/tagline
-role: India Director
+role: Incoming PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Development Data Lab
-  url: https://www.devdatalab.org/
+- name: Harvard Kennedy School
+  url:
 
 # Short bio (displayed in user profile at end of posts)
 bio: My current research interests lie in studying inequality in access to economic opportunity along the gender, caste, and class dimensions in South Asia. 
