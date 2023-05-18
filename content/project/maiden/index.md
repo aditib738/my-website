@@ -3,7 +3,7 @@ title: Maiden India
 summary: A Story of India Pre and Post 1991 from a 29 year old female gaze
 tags:
 - passion
-date: "2021-01-27T00:00:00Z"
+date: "2023-05-18T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://the1991project.com/essays/maiden-india-story-india-pre-and-post-1991-29-year-old-female-gaze"
@@ -13,6 +13,8 @@ image:
   focal_point: Smart
 
 links: 
+ - name: Link
+   url: https://the1991project.com/essays/maiden-india-story-india-pre-and-post-1991-29-year-old-female-gaze
 url_code: ""
 url_pdf: ""
 url_slides: ""
