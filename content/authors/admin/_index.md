@@ -72,7 +72,7 @@ highlight_name: true
 
 I am an incoming PhD student in Public Policy at the Harvard Kennedy School. 
 
-I was previously working as India Director at {{< staticref "htpps://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I worked on research on in-group bias in the Indian judiciary, and helped build an ongoing research agenda at the intersection of social norms and access to economic opportunity, in addition to fundraising and outreach responsibilities.
+I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I worked on research on in-group bias in the Indian judiciary, and helped build an ongoing research agenda at the intersection of social norms and access to economic opportunity, in addition to fundraising and outreach responsibilities.
 
 I was introduced to the world of development economics research through large-scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu (India) at J-PAL South Asia.
 
