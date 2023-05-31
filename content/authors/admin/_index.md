@@ -76,6 +76,6 @@ I was previously working as India Director at {{< staticref "https://www.devdata
 
 I was introduced to the world of development economics research through large-scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu (India) at J-PAL South Asia.
 
-When not deep in rabbit holes in messy data, I can be found cooking up a storm, painting, or on long (slow) runs with my husband.
+When not deep in rabbit holes in messy data, I can be found cooking up a storm, painting ({{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}see here{{< /staticref >}}), or on long (slow) runs with my husband.
 
 ---
