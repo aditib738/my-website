@@ -5,23 +5,20 @@
 
 main:
   - name: Home
-    url: about
+    url: '#about'
     weight: 10
   - name: Publications
-    url: publication
+    url: '#publication'
     weight: 30
   - name: Working Papers
-    url: wp
+    url: '#wp'
     weight: 40
   - name: Projects
-    url: project
+    url: '#project'
     weight: 50
-  - name: Talks
-    url: event
-    weight: 60    
   - name: Contact
     url: '#contact'
-    weight: 70
+    weight: 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
