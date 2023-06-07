@@ -9,7 +9,7 @@ authors:
 - admin
 - Paul Novosad 
 
-date: "2022-04-16"
+date: "2021-04-16"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -22,6 +22,6 @@ publishDate: "2022-04-16"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: Working Paper
+publication: Working Paper (Forthcoming)
 
 ---
