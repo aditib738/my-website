@@ -1,5 +1,5 @@
 ---
-title: A map for equitable growth in South Asia
+title: A Map for Equitable Growth in South Asia
 summary: Joint work with the World Bank SARCE
 tags:
 - Policy
