@@ -22,7 +22,7 @@ publishDate: "2023-04-15"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Working Paper
+publication: Working Paper (Forthcoming)
 tags: []
 
 # Display this page in the Featured widget?
