@@ -7,13 +7,13 @@ title: "Cultural Capital and Economic Opportunity"
 authors:
 - Sam Asher
 - admin
-- Paul Novosad 
+- Paul Novosad (2023)
 
 # date: "2022-04-15"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2022-04-15"
+# publishDate: "2022-04-15"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
