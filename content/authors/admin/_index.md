@@ -78,4 +78,4 @@ I was introduced to the world of development economics research through large <b
 
 When not deep in rabbit holes in messy data, I can be found cooking up a storm, <br/> {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}painting{{< /staticref >}}, or on long (slow) runs with my husband.
 
-
+<br/> 
