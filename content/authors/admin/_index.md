@@ -72,10 +72,10 @@ highlight_name: true
 
 I am an incoming PhD student in Public Policy at the Harvard Kennedy School. 
 
-I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I <br/> co-authored a study on in-group bias in the Indian judiciary, and helped build <br/> an ongoing research agenda at the intersection of social norms and access to <br/> economic opportunity, in addition to fundraising and outreach responsibilities.
+I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I co-authored a study on in-group bias in the Indian judiciary, and helped build an ongoing research agenda at the intersection of social norms and access to economic opportunity, in addition to fundraising and outreach responsibilities.
 
-I was introduced to the world of development economics research through large <br/> scale evaluations of education and early childhood development programs across <br/> Madhya Pradesh and Tamil Nadu (India) at J-PAL South Asia.
+I was introduced to the world of development economics research through large scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu (India) at J-PAL South Asia.
 
-When not deep in rabbit holes in messy data, I can be found cooking up a storm, <br/> {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}painting{{< /staticref >}}, or on long (slow) runs with my husband.
+When not deep in rabbit holes in messy data, I can be found cooking up a storm, {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}painting{{< /staticref >}}, or on long (slow) runs with my husband.
 
 <br/> 
