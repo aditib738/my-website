@@ -6,7 +6,7 @@ title: Aditi Bhowmick
 superuser: true
 
 # Role/position/tagline
-role: Incoming PhD Student
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
