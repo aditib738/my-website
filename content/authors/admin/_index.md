@@ -27,7 +27,7 @@ education:
   courses:
   - course: PhD in Public Policy
     institution: Harvard University
-    year: Incoming (Fall 2023)
+    year: 2023 -- 
   - course: MPA in Economics and Public Policy
     institution: Princeton University
     year: 2020
@@ -76,6 +76,8 @@ I was previously working as India Director at {{< staticref "https://www.devdata
 
 I was introduced to the world of development economics research through large scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu (India) at J-PAL South Asia.
 
-When not trying to make sense of the world through data, I can be found cooking up a storm, {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}painting{{< /staticref >}}, or on long (slow) runs with my husband.
+When not trying to make sense of the world through data, I can be found cooking up a storm, {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}painting{{< /staticref >}}, or on long (slow) runs with my husband. 
+
+{{< staticref "https://aditib738.github.io/mywebsite/Aditi_CV.pdf" "newtab" >}}Here{{< /staticref >}} is a link to my CV.
 
 <br/> 
