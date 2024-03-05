@@ -72,7 +72,7 @@ highlight_name: true
 
 I am a first year PhD student in Public Policy (Economics Track) at the Harvard Kennedy School. 
 
-I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I co-authored studies spanning in-group judicial bias in India, upward mobility in South Asia, excess mortality during Covid-19 and implications of cultural distance on economic opportunity. At DDL, I also helped build an ongoing gender research agenda and lead fundraising and partnerships for the organization.
+I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I co-authored studies spanning in-group judicial bias in India, upward mobility in South Asia, excess mortality during Covid-19 and implications of cultural distance on economic opportunity. At DDL, I also helped build an ongoing gender research agenda and led fundraising and partnerships for the organization.
 
 I was introduced to the world of development economics research through large scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu (India) at J-PAL South Asia.
 
