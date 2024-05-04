@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: tailwind
-  theme_night: tailwind
+  theme_day: Custom
+  theme_night: Custom
   font: classic
   font_size: S
 
