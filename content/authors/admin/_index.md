@@ -14,13 +14,13 @@ organizations:
   url:
 
 # Short bio (displayed in user profile at end of posts)
-bio: My current research interests lie in studying the implications of upward mobility gaps, barriers to female labor force participation, and historical economic shocks in South Asia. 
+bio: My current research interests lie in studying social norms and inequality of opportunity in South Asia.
 
 # Interests to show in About widget
 interests:
-- Development 
-- Gender 
-- Intergenerational Mobility
+- Gender
+- Social Norms 
+- Inequality
 
 # Education to show in About widget
 education:
@@ -70,11 +70,11 @@ email: ""
 highlight_name: true
 ---
 
-I am a first year PhD student in Public Policy (Economics Track) at the Harvard Kennedy School. 
+I am a second year PhD student in Public Policy (Economics Track) at the Harvard Kennedy School. 
 
-I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I co-authored studies spanning in-group judicial bias in India, upward mobility in South Asia, excess mortality during Covid-19 and implications of cultural distance on economic opportunity. At DDL, I also helped build an ongoing gender research agenda and led fundraising and partnerships for the organization.
+During the PhD, I am building a research agenda on social norms and gender inequality across developing countries. 
 
-I was introduced to the world of development economics research through large scale evaluations of education and early childhood development programs across Madhya Pradesh and Tamil Nadu (India) at J-PAL South Asia.
+I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I co-authored studies spanning in-group judicial bias in India, upward mobility in South Asia, excess mortality during Covid-19 and implications of cultural distance on economic opportunity. 
 
 When not trying to make sense of the world through data, I can be found cooking up a storm, {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}painting{{< /staticref >}}, or on long (slow) runs with my husband. 
 
