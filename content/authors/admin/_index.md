@@ -72,10 +72,10 @@ highlight_name: true
 
 I am a second year PhD student in Public Policy (Economics Track) at the Harvard Kennedy School. I am currently building a research agenda on social norms and gender inequality across developing countries. 
 
-I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}Development Data Lab{{< /staticref >}}. At DDL, I co-authored studies spanning in-group judicial bias in India, upward mobility in South Asia, excess mortality during Covid-19 and implications of cultural distance on economic opportunity. 
+I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}<ins>Development Data Lab</ins>{{< /staticref >}}. At DDL, I co-authored studies spanning in-group judicial bias in India, upward mobility in South Asia, excess mortality during Covid-19 and implications of cultural distance on economic opportunity. 
 
-When not trying to make sense of the world through data, I can be found cooking up a storm, {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}painting{{< /staticref >}}, or on long (slow) runs with my husband. 
+When not trying to make sense of the world through data, I can be found cooking up a storm, {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}<ins>painting</ins>{{< /staticref >}}, or on long (slow) runs with my husband. 
 
-{{< staticref "https://aditib738.github.io/mywebsite/Aditi_CV.pdf" "newtab" >}}Here{{< /staticref >}} is a link to my CV.
+{{< staticref "https://aditib738.github.io/mywebsite/Aditi_CV.pdf" "newtab" >}}<ins>Here</ins>{{< /staticref >}} is a link to my CV.
 
 <br/> 
