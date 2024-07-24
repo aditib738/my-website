@@ -70,7 +70,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a second year PhD student in Public Policy (Economics Track) at the Harvard Kennedy School, and Stone Program in Wealth Distribution, Inequality & Social Policy. I am currently building a research agenda on social norms and gender inequality across developing countries. 
+I am a second year PhD student in Public Policy (Economics Track) at the Harvard Kennedy School. I am currently building a research agenda on social norms and gender inequality across developing countries. 
 
 I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}<ins>Development Data Lab</ins>{{< /staticref >}}. At DDL, I co-authored studies spanning in-group judicial bias in India, upward mobility in South Asia, excess mortality during Covid-19 and implications of cultural distance on economic opportunity. 
 
