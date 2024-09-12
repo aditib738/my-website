@@ -7,6 +7,7 @@ title: "Cultural Capital and Economic Opportunity"
 authors:
 - Sam Asher
 - admin
+- Maurizio Bussolo
 - Paul Novosad 
 
 date: "2023-04-15"
