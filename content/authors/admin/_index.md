@@ -67,12 +67,10 @@ social:
 email: ""
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 ---
 
 I am a second year PhD student in Public Policy (Economics Track) at the Harvard Kennedy School, and a PhD Scholar at the Stone Program in Wealth Distribution, Inequality & Social Policy. I am currently building a research agenda on social norms and gender inequality across developing countries. 
-
-I was previously working as India Director at {{< staticref "https://www.devdatalab.org" "newtab" >}}<ins>Development Data Lab</ins>{{< /staticref >}}. At DDL, I co-authored studies spanning in-group judicial bias in India, upward mobility in South Asia, excess mortality during Covid-19 and implications of cultural distance on economic opportunity. 
 
 When not trying to make sense of the world through data, I can be found cooking up a storm, {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}<ins>painting</ins>{{< /staticref >}}, or on long (slow) runs with my husband. 
 
