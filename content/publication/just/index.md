@@ -1,5 +1,5 @@
 ---
-title: "In-group bias in the Indian judiciary Evidence from 5 million criminal cases"
+title: "In-group bias in the Indian judiciary: Evidence from 5 million criminal cases"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
