@@ -46,10 +46,10 @@ url_pdf: 'http://paulnovosad.com/pdf/india-judicial-bias.pdf'
 url_code: 'https://github.com/devdatalab/paper-justice'
 url_dataset: 'https://www.devdatalab.org/judicial-data'
 url_poster: ''
-url_project: 'https://www.devdatalab.org/judicial-bias'
+url_project: ''
 url_slides: ''
 url_source: ''
-url_video: 'https://www.youtube.com/watch?v=OzcLsbOQybY'
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
