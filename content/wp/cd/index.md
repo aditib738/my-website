@@ -30,14 +30,4 @@ publication_types: ["3"]
 publication: Working Paper
 tags: []
 
-
-# Display this page in the Featured widget?
-featured: true
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  focal_point: ""
-  preview_only: false
-
 ---
