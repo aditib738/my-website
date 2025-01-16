@@ -17,6 +17,9 @@ doi: ""
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-12-15"
 
+# Optional external URL for project (replaces project detail page).
+external_link: https://www.isid.ac.in/~acegd/acegd2024/papers/SamAsher.pdf
+
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
@@ -24,8 +27,9 @@ publishDate: "2024-12-15"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "{{< staticref "https://www.isid.ac.in/~acegd/acegd2024/papers/SamAsher.pdf" "newtab" >}}<ins>Working Paper</ins>{{< /staticref >}}"
+publication: Working Paper
 tags: []
+
 
 # Display this page in the Featured widget?
 featured: true
