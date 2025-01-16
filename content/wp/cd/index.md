@@ -24,16 +24,11 @@ publishDate: "2024-12-15"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Working Paper (Forthcoming)
+publication: {{< staticref "https://www.isid.ac.in/~acegd/acegd2024/papers/SamAsher.pdf" "newtab" >}}<ins>Working Paper</ins>{{< /staticref >}}
 tags: []
 
 # Display this page in the Featured widget?
 featured: true
-
-# Custom links (uncomment lines below)
-links:
-   
-url_pdf: 'https://www.isid.ac.in/~acegd/acegd2024/papers/SamAsher.pdf'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
