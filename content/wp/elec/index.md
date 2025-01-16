@@ -1,5 +1,5 @@
 ---
-title: "Rural Electrification, Social Norms, and Female Labor Allocation: Evidence from Rural U.S. and India"
+title: "The Power to Work: Electrification and Women’s Employment in India"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -7,11 +7,11 @@ title: "Rural Electrification, Social Norms, and Female Labor Allocation: Eviden
 authors:
 - admin
 
-date: "2024-09-12"
+date: "2025-01-16"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-09-12"
+publishDate: "2025-01-16"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;

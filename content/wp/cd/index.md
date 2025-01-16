@@ -8,13 +8,14 @@ authors:
 - Sam Asher
 - admin
 - Maurizio Bussolo
+- Vidisha Mehta
 - Paul Novosad 
 
-date: "2023-04-15"
+date: "2024-12-15"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-04-15"
+publishDate: "2024-12-15"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -28,6 +29,11 @@ tags: []
 
 # Display this page in the Featured widget?
 featured: true
+
+# Custom links (uncomment lines below)
+links:
+   
+url_pdf: 'https://www.isid.ac.in/~acegd/acegd2024/papers/SamAsher.pdf'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
