@@ -24,7 +24,7 @@ publishDate: "2024-12-15"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: {{< staticref "https://www.isid.ac.in/~acegd/acegd2024/papers/SamAsher.pdf" "newtab" >}}<ins>Working Paper</ins>{{< /staticref >}}
+publication: "{{< staticref "https://www.isid.ac.in/~acegd/acegd2024/papers/SamAsher.pdf" "newtab" >}}<ins>Working Paper</ins>{{< /staticref >}}"
 tags: []
 
 # Display this page in the Featured widget?
