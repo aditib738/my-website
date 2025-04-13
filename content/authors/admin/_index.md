@@ -72,11 +72,11 @@ highlight_name: false
 
 
 :wave: I am a second year PhD student in Public Policy (Economics Track) at the Harvard 
-Kennedy School, and a PhD Scholar at the Stone Program in Wealth Distribution, Inequality & 
+Kennedy School, and a PhD Scholar at the Stone Program in Inequality & 
 Social Policy. I am currently building a research agenda on social norms and gender inequality
 across developing countries. 
 
-When not trying to make sense of the world through data, I can be found cooking up a storm, 
+When not trying to make sense of the world through data, I can be found cooking, 
 {{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}<ins>painting</ins>{{< /staticref >}}, or on long (slow) runs with my husband. 
 
 {{< staticref "https://aditib738.github.io/mywebsite/Aditi_CV.pdf" "newtab" >}}<ins>Here</ins>{{< /staticref >}} is a link to my CV.
