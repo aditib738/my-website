@@ -1,5 +1,5 @@
 ---
-title: "The Power to Work: Electrification and Women’s Employment in India"
+title: "The Power of Norms: Rural Electrification and Female Labor in India"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -20,7 +20,7 @@ publishDate: "2025-01-16"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Working Paper (Draft forthcoming)
+publication: Working Paper (Submitted)
 tags: []
 
 # Display this page in the Featured widget?
