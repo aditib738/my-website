@@ -33,3 +33,6 @@ image:
   preview_only: false
 
 ---
+
+## Abstract
+Do social norms mediate the impact of structural transformation on female labor outcomes? I study this question in the context of India's national rural electrification program. Using detailed information on employment, firm ownership, baseline school enrollment and social norms across over 500,000 villages, I first estimate aggregate impacts: a 4% increase in the share of firms employing women and a 5% increase in the female share of non-agricultural labor. I then show that these aggregate results mask substantial heterogeneity driven by social norms. Electrification \textit{boosts} female labor shares in areas with larger baseline marginalized caste populations and a history of female agricultural participation, but \textit{reduces} them in upper-caste-dominated regions and those with high baseline Purdah compliance
