@@ -48,4 +48,4 @@ For this project, I am collaborating with an organization that provides suppleme
 A pilot of the intervention with a sample of 90 married men in Jharkhand, India was completed in March, 2025. The full-scale experiment is slated to launch in June, 2025.
 
 ## Acknowledgement
-This project has been enabled by generous support from: The Cultural Bridge Fund at the Women and Public Policy Program at Harvard Kennedy School, the Harvard Mind Brain Behavior Interfaculty Initiative, Rohini Nilekani Philanthropies, Institue for Humane Studies, the Harvard Stone Program in Wealth Distribution, Inequality, and Social Policy, and the Center for International Development.
+This project has been enabled by generous support from: The Cultural Bridge Fund at the Women and Public Policy Program at Harvard Kennedy School, the Harvard Mind Brain Behavior Interfaculty Initiative, Rohini Nilekani Philanthropies, Institute for Humane Studies, the Harvard Stone Program in Wealth Distribution, Inequality, and Social Policy, and the Center for International Development.
