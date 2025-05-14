@@ -71,7 +71,7 @@ highlight_name: false
 ---
 
 
-:wave: I am a second year PhD student in Public Policy (Economics Track) at the Harvard 
+:wave: I am a (rising) third year PhD student in Public Policy (Economics Track) at the Harvard 
 Kennedy School, and a PhD Scholar at the Stone Program in Inequality & 
 Social Policy. I am currently building a research agenda on social norms and gender inequality
 across developing countries. 
