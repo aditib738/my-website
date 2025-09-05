@@ -67,7 +67,6 @@ This summer the project was scaled across multiple districts in Uttar Pradesh, B
 
 The map below shows the districts where the study is being conducted (left) alongside a district-level patriarchy index (right) that underscores why this work is so urgent: these are among the most unequal regions in the country.
 
-<img width="536" height="264" alt="image" src="https://github.com/user-attachments/assets/62784838-2cd2-4452-a754-2ae59affe2ce" />
 
 ## Blog 7: Reflection 
 
@@ -79,7 +78,6 @@ Development research is not just about data and results; it is about mutual resp
 As we move into the next phase of this study, the excitement lies not only in analyzing and disseminating findings but in the possibilities. Can digital platforms—already engines of economic opportunity—also become vehicles for reshaping harmful social norms?
 
 If successful, this approach could scale at low cost across thousands of workers in India and beyond. Karya itself is expanding rapidly, with ambitions to reach new geographies like Kenya. Embedding social change into digital work is still an emerging idea, but one that could transform how we think about the intersection of livelihoods, technology, and equality.
-
 
 ## Acknowledgement
 This project has been enabled by generous support from: The Cultural Bridge Fund at the Women and Public Policy Program at Harvard Kennedy School, the Harvard Mind Brain Behavior Interfaculty Initiative, Rohini Nilekani Philanthropies, Institute for Humane Studies, the Harvard Stone Program in Wealth Distribution, Inequality, and Social Policy, and the Center for International Development.
