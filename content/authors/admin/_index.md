@@ -14,7 +14,7 @@ organizations:
   url:
 
 # Short bio (displayed in user profile at end of posts)
-bio: My current research interests lie in studying social norms and inequality of opportunity in South Asia.
+bio: My current research interests lie in gender and labor markets in South Asia.
 
 # Interests to show in About widget
 interests:
@@ -71,13 +71,12 @@ highlight_name: false
 ---
 
 
-:wave: I am a (rising) third year PhD student in Public Policy (Economics Track) at the Harvard 
+:wave: I am a third year PhD student in Public Policy (Economics Track) at the Harvard 
 Kennedy School, and a PhD Scholar at the Stone Program in Inequality & 
 Social Policy. I am currently building a research agenda on social norms and gender inequality
 across developing countries. 
 
-When not trying to make sense of the world through data, I can be found cooking, 
-{{< staticref "https://bhowmick-34728.medium.com/everything-i-have-painted-since-2020-8622c134f4c3" "newtab" >}}<ins>painting</ins>{{< /staticref >}}, or on long (slow) runs with my husband. 
+When not trying to make sense of the world through data, I can be found birding, cooking, painting, or on long (slow) runs with my husband. 
 
 {{< staticref "https://aditib738.github.io/mywebsite/Aditi_CV.pdf" "newtab" >}}<ins>Here</ins>{{< /staticref >}} is a link to my CV.
 
