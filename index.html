@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aditi Bhowmick</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --cream: #ffffff;
+    --warm-white: #f8f8f8;
+    --ink: #111111;
+    --ink-muted: #444444;
+    --ink-light: #888888;
+    --accent: #A51C30;
+    --accent-light: #c0392b;
+    --border: #e2e2e2;
+    --border-strong: #bbbbbb;
+    --serif: 'Cormorant Garamond', Georgia, serif;
+    --sans: 'DM Sans', system-ui, sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(250, 248, 244, 0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+  }
+
+  .nav-name {
+    font-family: var(--serif);
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    list-style: none;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 0 0.85rem;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .nav-links a:hover { color: var(--accent); }
+
+  .nav-links .cv-link a {
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 2px;
+    padding: 4px 14px;
+    margin-left: 0.5rem;
+    font-weight: 500;
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .nav-links .cv-link a:hover {
+    background: var(--accent);
+    color: var(--warm-white);
+  }
+
+  /* hamburger */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 6px;
+    z-index: 200;
+  }
+
+  .hamburger span {
+    display: block;
+    width: 22px;
+    height: 1.5px;
+    background: var(--ink);
+    transition: all 0.25s;
+    transform-origin: center;
+  }
+
+  .hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+  .mobile-menu {
+    display: none;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--cream);
+    z-index: 99;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .mobile-menu.open { display: flex; }
+
+  .mobile-menu a {
+    font-family: var(--serif);
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--ink);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .mobile-menu a:hover { color: var(--accent); }
+
+  /* ── HERO ── */
+  #about {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .hero-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--border-strong);
+    flex-shrink: 0;
+  }
+
+  .hero-text h1 {
+    font-family: var(--serif);
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 0.4rem;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-bio {
+    color: var(--ink-muted);
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 640px;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-meta-group h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-light);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+  .hero-meta-group ul {
+    list-style: none;
+    font-size: 13.5px;
+    color: var(--ink-muted);
+  }
+
+  .hero-meta-group ul li::before {
+    content: '— ';
+    color: var(--accent-light);
+  }
+
+  .edu-item {
+    margin-bottom: 0.4rem;
+  }
+
+  .edu-item .degree {
+    font-size: 13px;
+    color: var(--ink);
+    font-weight: 400;
+  }
+
+  .edu-item .school {
+    font-size: 12px;
+    color: var(--ink-light);
+  }
+
+  /* ── DIVIDER ── */
+  .divider {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    border: none;
+    border-top: 1px solid var(--border);
+  }
+
+  /* ── SECTION ── */
+  .section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .section-title {
+    font-family: var(--serif);
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .section-line {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ── PUBLICATIONS ── */
+  .pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .pub-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    gap: 1rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .pub-item:first-child { border-top: 1px solid var(--border); }
+
+  .pub-journal {
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin-bottom: 0.35rem;
+  }
+
+  .pub-title {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.35;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+  }
+
+  .pub-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .pub-title a:hover { color: var(--accent); }
+
+  .pub-authors {
+    font-size: 13px;
+    color: var(--ink-light);
+    margin-bottom: 0.6rem;
+  }
+
+  .pub-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .pub-link {
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border: 1px solid var(--border-strong);
+    border-radius: 2px;
+    color: var(--ink-muted);
+    text-decoration: none;
+    transition: all 0.15s;
+  }
+
+  .pub-link:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(139,69,19,0.04);
+  }
+
+  .pub-year {
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    color: var(--border-strong);
+    font-weight: 400;
+    white-space: nowrap;
+    padding-top: 0.1rem;
+  }
+
+  /* ── WORKING PAPERS ── */
+  .wp-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .wp-card {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    padding: 1.5rem;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .wp-card:hover {
+    border-color: var(--accent-light);
+    transform: translateY(-2px);
+  }
+
+  .wp-status {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 2px 8px;
+    border-radius: 1px;
+    margin-bottom: 0.75rem;
+  }
+
+  .wp-status.submitted {
+    background: rgba(165,28,48,0.06);
+    color: var(--accent);
+    border: 1px solid rgba(165,28,48,0.2);
+  }
+
+  .wp-status.ongoing {
+    background: #f2f2f2;
+    color: var(--ink-muted);
+    border: 1px solid var(--border);
+  }
+
+  .wp-status.forthcoming {
+    background: #f2f2f2;
+    color: #2a6e2a;
+    border: 1px solid #c0d8c0;
+  }
+
+  .wp-title {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.35;
+    margin-bottom: 0.5rem;
+  }
+
+  .wp-title a {
+    color: var(--ink);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .wp-title a:hover { color: var(--accent); }
+
+  .wp-authors {
+    font-size: 12.5px;
+    color: var(--ink-light);
+  }
+
+  /* ── PROJECTS ── */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .project-card {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+    transition: border-color 0.2s, transform 0.2s;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .project-card:hover {
+    border-color: var(--accent-light);
+    transform: translateY(-2px);
+  }
+
+  .project-img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+    background: var(--border);
+  }
+
+  .project-body {
+    padding: 1rem 1.15rem;
+  }
+
+  .project-tag {
+    font-size: 10.5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent-light);
+    margin-bottom: 0.3rem;
+  }
+
+  .project-title {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--ink);
+    margin-bottom: 0.3rem;
+  }
+
+  .project-sub {
+    font-size: 12.5px;
+    color: var(--ink-light);
+    line-height: 1.5;
+  }
+
+  /* ── CONTACT ── */
+  #contact .section-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .contact-blurb {
+    font-family: var(--serif);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: var(--ink);
+    font-weight: 400;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: var(--ink-muted);
+    font-size: 14px;
+    transition: color 0.15s;
+  }
+
+  .contact-link:hover { color: var(--accent); }
+
+  .contact-icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--border-strong);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 2rem 1.5rem;
+    font-size: 12.5px;
+    color: var(--ink-light);
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 700px) {
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+
+    #about {
+      grid-template-columns: 1fr;
+      padding: 3rem 1.25rem 2.5rem;
+      gap: 1.75rem;
+    }
+
+    .hero-photo {
+      width: 120px;
+      height: 120px;
+    }
+
+    .hero-text h1 { font-size: 2.2rem; }
+    .hero-meta { flex-direction: column; gap: 1.5rem; }
+
+    .pub-item { grid-template-columns: 1fr; }
+    .pub-year { display: none; }
+
+    #contact .section-inner {
+      grid-template-columns: 1fr;
+      gap: 1.75rem;
+    }
+
+    .section { padding: 2.5rem 1.25rem; }
+    .section-title { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="#about">Aditi Bhowmick</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#wp">Working Papers</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li class="cv-link"><a href="https://aditib738.github.io/mywebsite/Aditi_CV.pdf" target="_blank" rel="noopener">CV ↗</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile overlay menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about" class="mobile-link">About</a>
+  <a href="#publications" class="mobile-link">Publications</a>
+  <a href="#wp" class="mobile-link">Working Papers</a>
+  <a href="#projects" class="mobile-link">Projects</a>
+  <a href="#contact" class="mobile-link">Contact</a>
+  <a href="https://aditib738.github.io/mywebsite/Aditi_CV.pdf" target="_blank" rel="noopener">CV ↗</a>
+</div>
+
+<!-- ── HERO / ABOUT ── -->
+<section id="about">
+  <img
+    class="hero-photo"
+    src="https://www.aditibhowmick.com/authors/admin/avatar_huc4e381b09deeab9978233815164026a0_577523_270x270_fill_q75_lanczos_center.jpg"
+    alt="Aditi Bhowmick"
+    onerror="this.style.background='#e8e3db';this.removeAttribute('src')"
+  />
+  <div class="hero-text">
+    <h1>Aditi Bhowmick</h1>
+    <p class="hero-subtitle">PhD Student · Harvard Kennedy School</p>
+    <p class="hero-bio">
+      I am a third-year PhD student in Public Policy (Economics Track) at the Harvard Kennedy School,
+      and a PhD Scholar at the Stone Program in Inequality &amp; Social Policy.
+      I am currently building a research agenda on social norms and gender inequality
+      across developing countries.
+    </p>
+    <p class="hero-bio" style="margin-top: -0.75rem;">
+      When not trying to make sense of the world through data, I can be found birding, cooking, painting,
+      or on long (slow) runs with my husband.
+    </p>
+    <a href="https://aditib738.github.io/mywebsite/Aditi_CV.pdf" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.5rem;margin-bottom:2rem;padding:8px 20px;background:var(--accent);color:#fff;font-family:var(--sans);font-size:13px;font-weight:500;letter-spacing:0.05em;text-transform:uppercase;text-decoration:none;border-radius:2px;transition:background 0.15s;" onmouseover="this.style.background='#8a1525'" onmouseout="this.style.background='#A51C30'">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      Download CV
+    </a>
+    <div class="hero-meta">
+      <div class="hero-meta-group">
+        <h4>Interests</h4>
+        <ul>
+          <li>Gender</li>
+          <li>Social Norms</li>
+          <li>Inequality</li>
+        </ul>
+      </div>
+      <div class="hero-meta-group">
+        <h4>Education</h4>
+        <div class="edu-item">
+          <div class="degree">PhD in Public Policy, 2023–</div>
+          <div class="school">Harvard University</div>
+        </div>
+        <div class="edu-item">
+          <div class="degree">MPA in Economics &amp; Public Policy, 2020</div>
+          <div class="school">Princeton University</div>
+        </div>
+        <div class="edu-item">
+          <div class="degree">BA in Economics &amp; Political Science, 2016</div>
+          <div class="school">Cornell University</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── PUBLICATIONS ── -->
+<section class="section" id="publications">
+  <div class="section-header">
+    <h2 class="section-title">Publications</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="pub-list">
+
+    <div class="pub-item">
+      <div>
+        <div class="pub-journal">The Review of Economics and Statistics</div>
+        <div class="pub-title"><a href="https://www.aditibhowmick.com/publication/just/" target="_blank" rel="noopener">In-group bias in the Indian judiciary: Evidence from 5 million criminal cases</a></div>
+        <div class="pub-authors">Elliott Ash, Sam Asher, Aditi Bhowmick, Sandeep Bhupatiraju, Daniel Chen, Tanaya Devi, Christoph Goessmann, Paul Novosad, Bilal Siddiqui</div>
+        <div class="pub-links">
+          <a class="pub-link" href="https://www.aditibhowmick.com/publication/just/just.pdf" target="_blank" rel="noopener">PDF</a>
+          <a class="pub-link" href="https://github.com/devdatalab/paper-justice" target="_blank" rel="noopener">Code</a>
+          <a class="pub-link" href="https://www.devdatalab.org/judicial-data" target="_blank" rel="noopener">Dataset</a>
+          <a class="pub-link" href="https://indianexpress.com/article/india/district-courts-order-gender-religion-bias-7181919/" target="_blank" rel="noopener">Media</a>
+        </div>
+      </div>
+      <div class="pub-year">2023</div>
+    </div>
+
+    <div class="pub-item">
+      <div>
+        <div class="pub-journal">Journal of Labor Research</div>
+        <div class="pub-title"><a href="https://www.aditibhowmick.com/publication/englishprof/" target="_blank" rel="noopener">English Proficiency, Gender and the Occupations of Childhood Immigrants in the US</a></div>
+        <div class="pub-authors">Alicia Adsera, Aditi Bhowmick</div>
+        <div class="pub-links">
+          <a class="pub-link" href="https://link.springer.com/article/10.1007/s12122-022-09339-w" target="_blank" rel="noopener">Article</a>
+        </div>
+      </div>
+      <div class="pub-year">2022</div>
+    </div>
+
+    <div class="pub-item">
+      <div>
+        <div class="pub-journal">Science</div>
+        <div class="pub-title"><a href="https://www.aditibhowmick.com/publication/science/" target="_blank" rel="noopener">COVID mortality in India: National survey data and health facility deaths</a></div>
+        <div class="pub-authors">Prabhat Jha, Yashwant Deshmukh, Chinmay Tumbe, Wilson Suraweera, Aditi Bhowmick, et al.</div>
+        <div class="pub-links">
+          <a class="pub-link" href="https://www.aditibhowmick.com/publication/science/science.pdf" target="_blank" rel="noopener">PDF</a>
+          <a class="pub-link" href="https://www.devdatalab.org/covid" target="_blank" rel="noopener">Dataset</a>
+        </div>
+      </div>
+      <div class="pub-year">2022</div>
+    </div>
+
+    <div class="pub-item">
+      <div>
+        <div class="pub-journal">India Policy Forum</div>
+        <div class="pub-title"><a href="https://www.aditibhowmick.com/publication/ipf/" target="_blank" rel="noopener">Big, Open Data for Development: A Vision for India</a></div>
+        <div class="pub-authors">Sam Asher, Aditi Bhowmick, Alison Campion, Tobias Lunt, Paul Novosad</div>
+        <div class="pub-links">
+          <a class="pub-link" href="https://www.aditibhowmick.com/publication/ipf/ipf.pdf" target="_blank" rel="noopener">PDF</a>
+          <a class="pub-link" href="https://www.youtube.com/watch?v=_bH61Dktr70&t=8s" target="_blank" rel="noopener">Video</a>
+        </div>
+      </div>
+      <div class="pub-year">2021</div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── WORKING PAPERS ── -->
+<section class="section" id="wp">
+  <div class="section-header">
+    <h2 class="section-title">Working Papers</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="wp-grid">
+
+    <div class="wp-card">
+      <span class="wp-status ongoing">Data collection ongoing</span>
+      <div class="wp-title"><a href="https://www.aditibhowmick.com/wp/norms/" target="_blank" rel="noopener">Jobs of the Future and Gender Norms in India</a></div>
+      <div class="wp-authors">Aditi Bhowmick · 2025</div>
+    </div>
+
+    <div class="wp-card">
+      <span class="wp-status submitted">Submitted</span>
+      <div class="wp-title"><a href="https://www.aditibhowmick.com/wp/elec/" target="_blank" rel="noopener">The Power of Norms: Rural Electrification and Female Labor in India</a></div>
+      <div class="wp-authors">Aditi Bhowmick · 2025</div>
+    </div>
+
+    <div class="wp-card">
+      <span class="wp-status ongoing">Working Paper</span>
+      <div class="wp-title"><a href="https://www.aditibhowmick.com/wp/cd/" target="_blank" rel="noopener">Cultural Capital and Economic Opportunity</a></div>
+      <div class="wp-authors">Sam Asher, Aditi Bhowmick, Maurizio Bussolo, Vidisha Mehta, Paul Novosad · 2024</div>
+    </div>
+
+    <div class="wp-card">
+      <span class="wp-status forthcoming">Forthcoming</span>
+      <div class="wp-title"><a href="https://www.aditibhowmick.com/wp/mobility/" target="_blank" rel="noopener">Intergenerational Mobility in South Asia</a></div>
+      <div class="wp-authors">Sam Asher, Aditi Bhowmick, Maurizio Bussolo, Paul Novosad, Jonah Rexer · 2023</div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── PROJECTS ── -->
+<section class="section" id="projects">
+  <div class="section-header">
+    <h2 class="section-title">Projects</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+
+    <a class="project-card" href="https://the1991project.com/essays/maiden-india-story-india-pre-and-post-1991-29-year-old-female-gaze" target="_blank" rel="noopener">
+      <img class="project-img" src="https://www.aditibhowmick.com/project/maiden/featured_hu4aad09ec28eb10a560b27e47afb93187_1373316_150x0_resize_q75_h2_lanczos_3.webp" alt="Maiden India" loading="lazy">
+      <div class="project-body">
+        <div class="project-tag">Passion Project</div>
+        <div class="project-title">Maiden India</div>
+        <div class="project-sub">A story of India pre and post 1991 from a 29-year-old female gaze</div>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://openknowledge.worldbank.org/entities/publication/74975221-7215-4687-aee8-9e881086cd60" target="_blank" rel="noopener">
+      <img class="project-img" src="https://www.aditibhowmick.com/project/mob/featured_hu416f9b2e079f494d5b633a2dbccdda6a_3461597_150x0_resize_q75_h2_lanczos.webp" alt="Map for Equitable Growth" loading="lazy">
+      <div class="project-body">
+        <div class="project-tag">Policy</div>
+        <div class="project-title">A Map for Equitable Growth in South Asia</div>
+        <div class="project-sub">Joint work with the World Bank SARCE</div>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://pubdocs.worldbank.org/en/645971613651626018/Economic-Effects-of-COVID19-Rapid-Rural-Surveys.pdf" target="_blank" rel="noopener">
+      <img class="project-img" src="https://www.aditibhowmick.com/project/covid/featured_hu9444d4713e06413947842ee4f6e4401b_1136295_150x0_resize_q75_h2_lanczos_3.webp" alt="COVID rural households" loading="lazy">
+      <div class="project-body">
+        <div class="project-tag">Policy</div>
+        <div class="project-title">Effects of COVID-19 on Rural Households in India</div>
+        <div class="project-sub">Joint work with the World Bank and ID Insight</div>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://bhowmick-34728.medium.com/showmethewomen-makers-of-modern-india-623c6596129a" target="_blank" rel="noopener">
+      <img class="project-img" src="https://www.aditibhowmick.com/project/women/featured_hua6a017c61c4517141854c8b9175c097e_130131_150x0_resize_q75_h2_lanczos_3.webp" alt="Show me the Women" loading="lazy">
+      <div class="project-body">
+        <div class="project-tag">Passion Project</div>
+        <div class="project-title">Show me the Women</div>
+        <div class="project-sub">A blog series on Indian female economists and policy-makers</div>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://aditib738.github.io/mywebsite/China%20BRI%20Workshop%20Report_Final_%202020.pdf" target="_blank" rel="noopener">
+      <img class="project-img" src="https://www.aditibhowmick.com/project/china/featured_hu42f28a68ccbda5871e6f414b5a766d5d_89763_150x0_resize_q75_h2_lanczos_3.webp" alt="China BRI" loading="lazy">
+      <div class="project-body">
+        <div class="project-tag">Policy</div>
+        <div class="project-title">China's Belt and Road Initiative</div>
+        <div class="project-sub">Workshop report with Alex Entz, Pat Farrell, and collaborators</div>
+      </div>
+    </a>
+
+    <a class="project-card" href="https://www.aditibhowmick.com/project/media/" target="_blank" rel="noopener">
+      <img class="project-img" src="https://www.aditibhowmick.com/project/media/featured_hu919da289f428d1f22c1bc9f5e2819b5b_13894_150x0_resize_q75_h2_lanczos.webp" alt="Media" loading="lazy">
+      <div class="project-body">
+        <div class="project-tag">Media</div>
+        <div class="project-title">Media</div>
+        <div class="project-sub">Policy-relevant op-eds across media outlets</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── CONTACT ── -->
+<section class="section" id="contact">
+  <div class="section-header">
+    <h2 class="section-title">Contact</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="section-inner">
+    <p class="contact-blurb">
+      I'm always happy to hear from researchers, collaborators, or anyone curious about my work.
+    </p>
+    <div class="contact-links">
+      <a class="contact-link" href="mailto:aditib@alumni.princeton.edu">
+        <div class="contact-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        </div>
+        aditib@alumni.princeton.edu
+      </a>
+      <a class="contact-link" href="https://twitter.com/AditiBhowmick18" target="_blank" rel="noopener">
+        <div class="contact-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </div>
+        @AditiBhowmick18
+      </a>
+      <a class="contact-link" href="https://aditib738.github.io/mywebsite/Aditi_CV.pdf" target="_blank" rel="noopener">
+        <div class="contact-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        Download CV
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  © 2025 Aditi Bhowmick · Licensed under CC BY NC ND 4.0
+</footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileMenu.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  document.querySelectorAll('.mobile-link').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.remove('open');
+      hamburger.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+</script>
+</body>
+</html>
